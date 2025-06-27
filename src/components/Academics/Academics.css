@@ -1,0 +1,100 @@
+.academics-page {
+  background-color: #f3f7fa;
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.academics-container {
+  max-width: 1100px;
+  margin: auto;
+  background: #ffffff;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.academics-container h1 {
+  font-size: 2.4rem;
+  color: #002147;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.academics-container .intro {
+  font-size: 1.1rem;
+  color: #444;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
+}
+
+.academics-section {
+  margin-bottom: 2.5rem;
+}
+
+.academics-section h2 {
+  color: #004080;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+  border-left: 5px solid #00c4cc;
+  padding-left: 10px;
+}
+
+.academics-section p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.academics-section ul {
+  list-style: none;
+  padding-left: 1rem;
+  margin-top: 0.75rem;
+}
+
+.academics-section ul li::before {
+  content: '✔';
+  margin-right: 0.5rem;
+  color: #00a896;
+  font-weight: bold;
+}
+
+.academics-section ul li {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 1rem;
+}
+
+.academics-section a {
+  color: #0077cc;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.academics-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .academics-container {
+    padding: 2rem 1rem;
+  }
+
+  .academics-container h1 {
+    font-size: 2rem;
+  }
+
+  .academics-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .academics-section p,
+  .academics-section ul li {
+    font-size: 0.95rem;
+  }
+}

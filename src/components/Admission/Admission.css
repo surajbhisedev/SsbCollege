@@ -1,0 +1,77 @@
+.admission-page {
+  padding: 3rem 1rem;
+  background-color: #f4f8fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admission-container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.admission-container h1 {
+  font-size: 2.4rem;
+  color: #002147;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.admission-container .intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.admission-section {
+  margin-bottom: 2rem;
+}
+
+.admission-section h2 {
+  font-size: 1.4rem;
+  color: #005a9e;
+  border-left: 4px solid #00c4cc;
+  padding-left: 12px;
+  margin-bottom: 0.8rem;
+}
+
+.admission-section ul,
+.admission-section ol {
+  margin-left: 1.2rem;
+  color: #333;
+}
+
+.admission-section ul li,
+.admission-section ol li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.admission-section a {
+  color: #0077cc;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.admission-section a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .admission-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .admission-container h1 {
+    font-size: 2rem;
+  }
+
+  .admission-section h2 {
+    font-size: 1.2rem;
+  }
+}

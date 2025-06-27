@@ -1,0 +1,84 @@
+.committees-page {
+  background: #f4f9fc;
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.committees-container {
+  max-width: 1100px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.committees-container h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #003366;
+  margin-bottom: 2rem;
+}
+
+.committee-card {
+  margin-bottom: 2.5rem;
+}
+
+.committee-card h2 {
+  font-size: 1.5rem;
+  color: #005288;
+  border-left: 5px solid #00c4cc;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+
+.committee-card .note {
+  background: #e7f5ff;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #0077b6;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+thead {
+  background-color: #edf4fa;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  color: #002147;
+  font-weight: 600;
+}
+
+td {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .committees-container {
+    padding: 1.5rem 1rem;
+  }
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    font-size: 0.85rem;
+  }
+}
